@@ -1,0 +1,340 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*aplicamos estilos, usamos grid y flex*/
+.contenedor{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header"
+                         "aside aside aside aside"
+                         "main main main main"
+                         "footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(247, 62, 62);
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(254, 87, 87);
+}
+
+aside{
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 62, 62);
+    border: 0.2px solid rgb(227, 15, 15);
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 44, 44);
+    color: antiquewhite;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(228, 44, 44);
+    color: antiquewhite;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textWelcome{
+    height: 30px;
+}
+
+.textWelcome h1{
+    font-size: 30px;
+}
+
+.menu li{
+    display: inline-block;
+    background-color: rgb(228, 44, 44);
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+
+.menu li a{
+    color: antiquewhite;
+}
+
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: antiquewhite;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu ul li:hover{
+    background-color: rgb(243, 90, 90);;
+    transform: scale(1.2);
+}
+
+.n1:hover{
+    transform: scale(1.1);
+}
+
+.n1{
+    transition: 1s;
+}
+
+.n2:hover{
+    transform: scale(1.1);
+}
+
+.n2{
+    transition: 1s;
+}
+
+.n3:hover{
+    transform: scale(1.1);
+}
+
+.n3{
+    transition: 1s;
+}
+
+.n4:hover{
+    transform: scale(1.1);
+}
+
+.n4{
+    transition: 1s;
+}
+
+.hola{
+    color: antiquewhite;
+}
+
+.ofertas{
+    text-align: center;
+    padding: 20px;
+}
+
+.textoIndex{
+    background-color: rgb(228, 44, 44);
+    margin: 20px;
+    color: antiquewhite;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.n1{
+    padding: 3px;
+    background-color: red;
+}
+
+.n2{
+    padding: 3px;
+    background-color: red;
+}
+
+.n3{
+    padding: 3px;
+    background-color: red;
+}
+
+.n4{
+    padding: 3px;
+    background-color: red;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(228, 44, 44);
+    color: antiquewhite;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.listaP{
+    text-align: center;
+}
+
+.listaP li{
+    display: inline-block;
+    background-color: rgb(228, 44, 44);;
+    color: antiquewhite;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.productosVista{
+    text-align: center;
+}
+
+.productoA{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+.productoB{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+
+.productoC{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+
+.productoD{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+
+.productoE{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+
+.productoF{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+
+.productoG{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+
+.productoH{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid red;
+}
+
+.textServ{
+    background-color: rgb(228, 44, 44);
+    margin: 20px;
+    color: antiquewhite;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.videoServ{
+    text-align: center;
+}
+
+.textDos{
+    padding: 20px;
+}
+
+.servicios{
+    background-color: rgb(228, 44, 44);
+    margin: 20px;
+    color: antiquewhite;
+    font: font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.galeria{
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario{
+    padding: 50px;
+}
+
+/* declaramos media queries*/
+
+@media only screen and (min-width: 476px){
+    .contenedor{
+        height: 100vh;
+        display: grid;
+        grid-template-areas: "header header header header"
+                             "aside aside aside aside"
+                             "main main main main"
+                             "footer footer footer footer";
+    }
+    
+    header {
+        grid-area: header;
+        background-color: rgb(247, 62, 62);
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu li{
+        display: inline-block;
+        background-color: rgb(228, 44, 44);
+        padding: 2px;
+        margin: 6px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+
+    h1{
+        text-align: center;
+        background-color: rgb(228, 44, 44);
+        color: antiquewhite;
+        font: font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    aside{
+        grid-area: aside;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(247, 62, 62);
+        border: 0.2px solid rgb(227, 15, 15);
+    }
+
+    .listaP li{
+        display: inline-block;
+        background-color: rgb(228, 44, 44);;
+        color: antiquewhite;
+        padding: 2px;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        font: font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+
+    h2{
+        background-color: rgb(228, 44, 44);
+        color: antiquewhite;
+        font-size: 20px;
+        font: font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+}
